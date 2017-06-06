@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+            <Button
+                android:id="@+id/btn_time_line"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="时间轴" />
+          <!--  <Button
+                android:id="@+id/btn_float_icon"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="仿美团的浮标" />
+            <Button
+                android:id="@+id/btn_header_listview"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="仿美团商品列表" />
+            <Button
+                android:id="@+id/btn_rich_editor_Activity"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="简单的富文本编辑框" />
+            <Button
+                android:id="@+id/choose_photo_activity"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="选择照片" />
+            <Button
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="搜索" />
+            <Button
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="进度" />
+            <Button
+                android:id="@+id/loading_activity"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="加载提示控件" />
+            <Button
+                android:id="@+id/test_adapter_activity"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="通用适配器" />
+            <Button
+                android:id="@+id/test_barrage_activity"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="弹幕" />
+            <Button
+                android:id="@+id/show_webview_activity"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="HTML5" />
+            <Button
+                android:id="@+id/show_address"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="三角联动" />
+                -->
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
